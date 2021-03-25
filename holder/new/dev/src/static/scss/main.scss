@@ -1,0 +1,49 @@
+@import "vars";
+// mixins
+@import "mixins";
+// fonts
+@import "fonts";
+// libs
+@import "libs";
+// typografy
+@import "typography";
+
+// =============================================
+// import components
+// =============================================
+
+@import "../../assets/libs/swiper/dist/css/swiper.min.css";
+@import "../../assets/libs/fancybox/dist/jquery.fancybox.min.css";
+@import "../../assets/libs/aos/dist/aos.css";
+
+// =============================================
+// work flow
+// =============================================
+
+// modules
+@import "../../modules/header/header";
+@import "../../modules/services/services";
+@import "../../modules/indicators/indicators";
+@import "../../modules/form/form";
+@import "../../modules/approach/approach";
+@import "../../modules/case/case";
+@import "../../modules/work/work";
+@import "../../modules/instruments/instruments";
+@import "../../modules/footer/footer";
+@import "../../modules/modal/modal";
+
+body {
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+	font-family: $mainFont;
+	font-size: $mainFontSize;
+	line-height: $mainLineHeight;
+	color: $mainFontColor;
+	padding: 0;
+	margin: 0;
+}
+
+// =============================================
+// additional global styles
+// =============================================
